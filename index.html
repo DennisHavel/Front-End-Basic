@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Селектори</title>
+    <style>
+        
+        p {
+            color: red;
+        }
+
+       
+        #unique-element {
+            color: blue;
+        }
+
+      
+        .class-element {
+            color: green;
+        }
+
+      
+        .class1.class2 {
+            color: orange;
+        }
+
+       
+        ul li {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <p>Це елемент зазвичай червоного кольору через селектор за назвою елемента.</p>
+    <p id="unique-element">Цей елемент буде синього кольору через селектор за id.</p>
+    <p class="class-element">Цей елемент буде зеленого кольору через селектор за класом.</p>
+    <p class="class1 class2">Цей елемент буде помаранчевого кольору через селектор за кількома класами.</p>
+    <ul>
+        <li>Елемент списку 1, фіолетового кольору через селектор за вкладеністю.</li>
+        <li>Елемент списку 2, також фіолетового кольору через селектор за вкладеністю.</li>
+    </ul>
+</body>
+</html>
